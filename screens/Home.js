@@ -15,7 +15,7 @@ export default class HomeScreen extends Component {
     super(props);
     this.state = {
       listData: [],
-      url: "http://localhost:5000/"
+      url: "https://c8e3-180-94-34-136.ngrok.io/"
     };
   }
 

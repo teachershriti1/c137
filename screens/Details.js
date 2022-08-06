@@ -8,7 +8,7 @@ export default class DetailsScreen extends Component {
     this.state = {
       details: {},
       imagePath: "",
-      url: `http://localhost:5000/planet?name=${this.props.navigation.getParam(
+      url: `https://c8e3-180-94-34-136.ngrok.io/planet?name=${this.props.navigation.getParam(
         "planet_name"
       )}`
     };
